@@ -1,13 +1,13 @@
 import React from "react";
 import TopicPage from "./TopicPage";
-import "./Learn.css"; // ✅ new CSS file
+import "./Learn.css"; 
 
 // Components
 import UseStateExample from "./examples/UseStateExample";
 import PropsExample from "./examples/PropsExample";
 import UseEffectExample from "./examples/UseEffectExample";
 import UseRefExample from "./examples/UseRefExample";
-import PropsDrillingExample from "./examples/propsDrillingExample";
+import PropsDrillingExample from "./examples/PropsDrillingExample";
 
 // Code
 import propsCode from "./content/code/propsCode";

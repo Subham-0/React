@@ -1,4 +1,3 @@
-
 function PropsDrillingExample() {
     return (
         <>
@@ -7,7 +6,6 @@ function PropsDrillingExample() {
         </>
     );
 }
-
 export default PropsDrillingExample;
 
 function Child3(props) {
@@ -25,3 +23,4 @@ function Child1(props) {
         <p>Hello {props.name3}</p>
     );
 }
+
