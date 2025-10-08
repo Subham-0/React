@@ -35,6 +35,10 @@ import useContextTitle from "./content/title/useContextTitle";
 import useContextTheory from "./content/theory/useContextTheory";
 import useContextCode from "./content/code/useContextCode";
 import UseContextExample from "./examples/UseContextExample";
+import useMemoTitle from "./content/title/useMemoTitle";
+import useMemoTheory from "./content/theory/useMemoTheory";
+import useMemoCode from "./content/code/useMemoCode";
+import UseMemoExample from "./examples/UseMemoExample";
 
 function Learn({ currentTopic, setCurrentTopic }) {
   const topics = {
@@ -79,7 +83,13 @@ function Learn({ currentTopic, setCurrentTopic }) {
       theory:useContextTheory,
       ExampleComponent:UseContextExample,
       codeString:useContextCode,
-    }
+    },
+    useMemo:{
+      title:useMemoTitle,
+      theory:useMemoTheory,
+      ExampleComponent:UseMemoExample,
+      codeString:useMemoCode,
+    },
   };
 
   const topicKeys = Object.keys(topics);
