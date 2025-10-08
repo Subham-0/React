@@ -33,8 +33,8 @@ import ContextAPIExample from "./examples/ContextAPIExample";
 import contextAPICode from "./content/code/contextAPICode";
 import useContextTitle from "./content/title/useContextTitle";
 import useContextTheory from "./content/theory/useContextTheory";
-import UseContextExample from "./examples/UseContextExample";
 import useContextCode from "./content/code/useContextCode";
+import UseContextExample from "./examples/UseContextExample";
 
 function Learn({ currentTopic, setCurrentTopic }) {
   const topics = {
