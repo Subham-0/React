@@ -1,0 +1,35 @@
+/* src/text.css */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  margin: 15px 0 10px 0;
+}
+body {
+  font-size: clamp(14px, 1.4vw, 18px);
+}
+
+p {
+  font-size: clamp(12px, 1.2vw, 16px);
+}
+
+h1 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+h2 {
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+}
+
+h3 {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}

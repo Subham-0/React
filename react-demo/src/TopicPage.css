@@ -1,0 +1,87 @@
+.topic-page {
+  padding: 20px;
+  position: relative;
+  min-height: 80vh;
+}
+
+.theory-text {
+  white-space: pre-line;
+  margin-bottom: 20px;
+}
+
+/* Example box */
+.example-box {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+/* Back button (regular button style) */
+.back-btn-wrapper {
+  margin-top: 20px;
+}
+
+.nav-btn {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #005fa3;
+}
+
+/* Navigation links (Next/Prev) */
+.nav-links {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  color: #007acc;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Hover style (for desktop) */
+.nav-link:hover {
+  background-color: rgba(0, 122, 204, 0.1);
+  color: #005fa3;
+  transform: scale(1.05);
+}
+
+/* ✅ Default hover-like look for mobile */
+@media (max-width: 768px) {
+  .nav-links {
+    position: static;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-link {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 122, 204, 0.1); /* same as hover */
+    color: #005fa3;
+    transform: scale(1.02);
+  }
+}
