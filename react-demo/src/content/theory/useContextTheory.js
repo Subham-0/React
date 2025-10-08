@@ -1,5 +1,6 @@
 const useContextTheory =
 `useContext() is a React Hook that makes it easy to access data from a Context directly inside a functional component, removing the need for nested Consumers and making code cleaner and more readable
+createContext --> Provider with value ---> useContext
 
 important:
 useContext() must be used inside a functional component.
