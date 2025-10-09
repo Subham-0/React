@@ -39,6 +39,10 @@ import useMemoTitle from "./content/title/useMemoTitle";
 import useMemoTheory from "./content/theory/useMemoTheory";
 import useMemoCode from "./content/code/useMemoCode";
 import UseMemoExample from "./examples/UseMemoExample";
+import useCallbackTitle from "./content/title/useCallbackTitle";
+import useCallbackTheory from "./content/theory/useCallbackTheory";
+import UseCallbackExample from "./examples/UseCallbackExample";
+import useCallbackCode from "./content/code/useCallbackCode";
 
 function Learn({ currentTopic, setCurrentTopic }) {
   const topics = {
@@ -89,6 +93,11 @@ function Learn({ currentTopic, setCurrentTopic }) {
       theory:useMemoTheory,
       ExampleComponent:UseMemoExample,
       codeString:useMemoCode,
+    },useCallback:{
+      title:useCallbackTitle,
+      theory:useCallbackTheory,
+      ExampleComponent:UseCallbackExample,
+      codeString:useCallbackCode,
     },
   };
 
