@@ -43,6 +43,14 @@ import useCallbackTitle from "./content/title/useCallbackTitle";
 import useCallbackTheory from "./content/theory/useCallbackTheory";
 import UseCallbackExample from "./examples/UseCallbackExample";
 import useCallbackCode from "./content/code/useCallbackCode";
+import reactFormTitle from "./content/title/reactFormTitle";
+import reactFormTheory from "./content/theory/reactFormTheory";
+import ReactFormExample from "./examples/ReactFormExample";
+import reactFormCode from "./content/code/reactFormCode";
+import uncontrolledComponemtTitle from "./content/title/uncontrolledComponemtTitle";
+import uncontrolledComponemtTheory from "./content/theory/uncontrolledComponemtTheory";
+import uncontrolledComponemtExample from "./examples/uncontrolledComponemtExample";
+import uncontrolledComponentCode from "./content/code/uncontrolledComponentCode";
 
 function Learn({ currentTopic, setCurrentTopic }) {
   const topics = {
@@ -98,6 +106,18 @@ function Learn({ currentTopic, setCurrentTopic }) {
       theory:useCallbackTheory,
       ExampleComponent:UseCallbackExample,
       codeString:useCallbackCode,
+    },
+    reactForm:{
+      title:reactFormTitle,
+      theory:reactFormTheory,
+      ExampleComponent:ReactFormExample,
+      codeString:reactFormCode,
+    },
+    uncontrolledComponent:{
+      title:uncontrolledComponemtTitle,
+      theory:uncontrolledComponemtTheory,
+      ExampleComponent:uncontrolledComponemtExample,
+      codeString:uncontrolledComponentCode,
     },
   };
 
